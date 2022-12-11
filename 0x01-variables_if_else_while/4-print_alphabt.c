@@ -6,8 +6,6 @@
 int main(void)
 {
 	int n;
-	int q;
-	int e;
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
