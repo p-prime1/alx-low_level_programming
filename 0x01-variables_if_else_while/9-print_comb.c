@@ -12,7 +12,14 @@ int main(void)
 	for (n = 0, c = ',', s = ' '; n <= 9; n++)
 	{
 		putchar(n + '0');
+		if (n == 9)
+		{
+			break;
+		}
+		else
+		{
 		putchar(c);
+		}
 		putchar(s);
 	}
 	putchar('\n');
