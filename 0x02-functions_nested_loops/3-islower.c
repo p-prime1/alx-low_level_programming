@@ -3,12 +3,12 @@
 /**
  * _islower - Checks for lowercase
  * @c: Argument
- * return: 1 or 0
+ * Return: 1 or 0
  */
 
 int _islower(int c)
 {
-	if (c == 0)
+	if (islower(c) == 0)
 	{
 		return (0);
 	}
