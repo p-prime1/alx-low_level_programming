@@ -3,17 +3,17 @@
 /**
  * _islower - Checks for lowercase
  * @c: Argument
- *
+ * return: 1 or 0
  */
 
 int _islower(int c)
 {
-	if (c != 0)
+	if (c == 0)
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }
