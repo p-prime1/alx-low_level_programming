@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	if (c != 1)
+	if (c == 0)
 	{
 		return (0);
 	}
