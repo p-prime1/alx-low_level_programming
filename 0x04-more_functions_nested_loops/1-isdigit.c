@@ -8,7 +8,7 @@
 
 int _isdigit(int c)
 {
-	if (_isdigit(int c) == 0)
+	if (c == 0)
 	{
 		return 0;
 	}
