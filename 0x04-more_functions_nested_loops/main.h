@@ -5,7 +5,7 @@
 #include <ctype.h>
 
 
-int _putchar(int character);
+int _putchar(char character);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
