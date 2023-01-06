@@ -2,6 +2,7 @@
 /*
  * _strlen_recursion - Recursion to count length of stirng
  * @s: String ointer
+ * Return: Always 0
  */
 
 int _strlen_recursion(char *s)
