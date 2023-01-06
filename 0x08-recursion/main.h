@@ -2,8 +2,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*char _putchar(char character)
-{
+char _putchar(char character);
+/*{
 	putchar(character);
 	return (0);
 }
