@@ -1,5 +1,8 @@
 #include "main.h"
-
+/*
+ * _strlen_recursion - Recursion to count length of stirng
+ * @s: String ointer
+ */
 
 int _strlen_recursion(char *s)
 {
@@ -9,13 +12,4 @@ int _strlen_recursion(char *s)
 	else
 		return (1 + _strlen_recursion(s + 1));
 	return (0);
-}
-
-int main(void)
-{
-    int n;
-
-    n = _strlen_recursion("Corbin Coleman");
-    printf("%d\n", n);
-    return (0);
 }
