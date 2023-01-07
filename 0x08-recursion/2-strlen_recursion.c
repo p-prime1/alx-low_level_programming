@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _strlen_recursion - Recursion to count length of stirng
+ * _strlen_recursion - recursive function.
  * @s: String ointer
  * Return: Always 0
  */

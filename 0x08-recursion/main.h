@@ -2,11 +2,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char _putchar(char character);
-/*{
+char _putchar(char character)
+{
 	putchar(character);
 	return (0);
-}*/
+}
 
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
