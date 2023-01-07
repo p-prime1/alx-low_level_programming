@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ * factorial - Find the factorial of n.
+ * @n: Number to be chexked
+ * Return: Return -1 or 1 or factorial
  */
 
 int factorial(int n)
@@ -16,22 +18,6 @@ int factorial(int n)
 	}
 	else
 	{
-		return n * factorial(n - 1);
+		return (n * factorial(n - 1));
 	}
-}
-
-
-int main(void)
-{
-    int r;
-
-    r = factorial(1);
-    printf("%d\n", r);
-    r = factorial(5);
-    printf("%d\n", r);
-    r = factorial(10);
-    printf("%d\n", r);
-    r = factorial(-1024);
-    printf("%d\n", r);
-    return (0);
 }
