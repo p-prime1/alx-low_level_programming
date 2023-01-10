@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strcpy - copies a string from one pointer to another
  *	including the terminating null byte (\0)
@@ -20,4 +21,12 @@ char *_strcpy(char *dest, char *src)
 	dest[b] = '\0';
 
 	return (dest);
+}
+int main(void)
+{
+	char dst[50];
+	char *src = "hello world";
+	_strcpy(dst, src);
+	printf("%s \n", dst);
+	return (0);
 }
