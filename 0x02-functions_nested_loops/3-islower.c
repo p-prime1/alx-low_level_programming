@@ -10,33 +10,13 @@
 
 int _islower(int c)
 {
-	int i;
-	int j;
-
-	for (j = 'A'; j <= 'Z'; j++)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (c == j)
-		{
-			_putchar(0 + '0');
-			break;
-		}
-		else
-		{
-			continue;
-		}
+		_putchar(1 + '0');
 	}
-
-	for (i = 'a'; i <= 'z'; i++)
+	else
 	{
-		if (c == i)
-		{
-			_putchar(1 + '0');
-			break;
-		}
-		else
-		{
-			continue;
-		}
+		_putchar(0 + '0');
 	}
 	_putchar('\n');
 	return (0);
