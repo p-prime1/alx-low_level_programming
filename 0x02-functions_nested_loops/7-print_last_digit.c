@@ -2,12 +2,13 @@
 
 /**
  * print_last_digit - Prints last digit
- * @n: Value
+ * @r: Value
  * Return: Always 0;
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	n = n % 10;
+
+	n = r % 10;
 	return (n);
 }
