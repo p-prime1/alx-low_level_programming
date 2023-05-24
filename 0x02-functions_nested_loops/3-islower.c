@@ -2,22 +2,42 @@
 
 /**
  * _islower - Checks for lowercase
- * @c: Argument
- * Return: 1 or 0
+ * @c: Letter
+ * Return: Always 0
  */
+
+
 
 int _islower(int c)
 {
-	if (c != 1)
+	int i;
+	int j;
+
+	for (j = 'A'; j <= 'Z'; j++)
 	{
-		return (0);
+		if (c == j)
+		{
+			_putchar(0 + '0');
+			break;
+		}
+		else
+		{
+			continue;
+		}
 	}
-	else if (c == 0)
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		return (0);
+		if (c == i)
+		{
+			_putchar(1 + '0');
+			break;
+		}
+		else
+		{
+			continue;
+		}
 	}
-	else
-	{
-		return (1);
-	}
+	_putchar('\n');
+	return (0);
 }
