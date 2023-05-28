@@ -5,10 +5,6 @@
 #include <ctype.h>
 
 
-int _putchar(char character)
-{
-	putchar(character);
-}
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
