@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - A finction
+ * _puts_rev_recursion - A finction
  * @s: A pointer
  */
 
