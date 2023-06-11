@@ -1,14 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
+
 #ifndef MAIN_H
 #define MAIN_H
 
-char _putchar(char character);
-/*
+int _putchar(char c)
 {
-	putchar(character);
-	return (0);
+	return (write(1, &c, 1));
 }
-*/
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
