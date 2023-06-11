@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _strlen_recursion - Returns the number of characters in string
  * @s: String pointer
  * Return: Always 0
