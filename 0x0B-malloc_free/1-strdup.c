@@ -2,7 +2,7 @@
 
 /**
  * *_strdup - Copies a string
- * @*str: Parameter
+ * @str: Parameter
  * Return: Pointer
  */
 
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 		return (NULL);
 	while (str[len] != '\0')
 		len++;
-	len+= 1;
+	len += 1;
 
 	p = (char *) malloc(sizeof(char) * len);
 	while (str[i] != '\0')
