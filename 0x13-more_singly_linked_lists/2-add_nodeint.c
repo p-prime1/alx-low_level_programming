@@ -5,7 +5,7 @@
  * add_nodeint - Adds A new node to hte begiinging of a list
  * @head: Pointer to thr first node
  * @n: Variable to be assigned to the node
- * Returns: Address of the new node
+ * Return: Address of the new node
  */
 
 
