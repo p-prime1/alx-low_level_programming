@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_binary - Prints a number in binary form
+ * @n: Unsingned long integer to be converted
+ */
+
 void print_binary(unsigned long int n)
 {
 	if (n == 0)
