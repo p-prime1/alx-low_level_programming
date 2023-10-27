@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * binary_to_uint - Convert binary to integer
+ * @b: Pointer to stirng
+ * Return: Returns zero or the inconverted integer
+ */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int multiplier;
