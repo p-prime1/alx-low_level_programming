@@ -16,6 +16,8 @@ unsigned int binary_to_uint(const char *b)
 	multiplier = 0;
 	result = 0;
 
+	if (b == NULL)
+		return (0);
 	while (b[multiplier] != '\0')
 		multiplier++;
 	multiplier -= 1;
