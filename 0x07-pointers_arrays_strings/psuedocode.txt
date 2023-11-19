@@ -1,0 +1,8 @@
+prototype: void print_line(int n)
+A for loop will be used
+Declare i (i to be used as counter for the loop)
+int n is the number passed to the function and determines the length of the line
+In the for loop assign  0 to i then check if i < n if it is print _ (underscore)
+write an if statement to check if n is equal to zero:
+If n != 0 run the loop,
+if the abpve statement is false then print new line (\n)
