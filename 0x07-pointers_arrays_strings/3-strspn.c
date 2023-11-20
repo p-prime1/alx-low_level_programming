@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _strspn - Searches for a char in a string
+ * @s: String containing the character to be searched for
+ * @accept: String to be serched
+ * Return: Number of occurences of strings
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -28,7 +29,7 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		i++;
 	}
-	return counter;
+	return (counter);
 }
 
 
