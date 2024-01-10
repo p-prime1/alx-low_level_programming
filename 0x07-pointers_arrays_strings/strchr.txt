@@ -1,0 +1,13 @@
+Write a function that searches for a character and returns a pointer to the 
+occurence of the character
+
+char *_strchr(char*s, char c)
+S is the string to be searved 
+and c is the character we are looking for
+
+Using a loop to iterate through the srtring
+In the loop we are checking for the null terminating char since we are working with a strinf
+We use an if to check if ther char at a particular index matches the char
+we are looking for
+if it is we return the the pointer 
+else we return null

@@ -1,0 +1,23 @@
+The strspn function accept two arguments
+strspn(char *s, char* accept)
+*s is the main string
+*accept is the string the main is to be measured against
+
+The strspn function cmpares each char in the accept to the characters in s
+When it find any char in s it adds it to the count 
+It keeps counting until the doesnt find one and it returns the number of char counted
+Or it reaches end of string
+
+Process
+
+Declare the neccesary header files
+Declare two counters for the while loops
+using two while loop
+First while loop is for the accept string using i as the index
+THe first condition used for the while loop is till the s string is not equal to '\0'
+Second while loop is for the string to be searched to j to be used as index
+The condition for the second loop compares each indexes of accept to s
+And increments the conuter as required
+Return the increment
+
+

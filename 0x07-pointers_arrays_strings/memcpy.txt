@@ -1,0 +1,10 @@
+Wirte a code that copies data in a memory to another
+
+The function accepts three variables 
+*_memcpy(char *dest, char *src, unsigned int n);
+
+First declare an unsigned int i and j
+We use i to compare with n
+ANd we use j as the index
+
+The function returns a pointer to the dest

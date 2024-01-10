@@ -1,6 +1,0 @@
-convert number to unsigned int
-
-Function takes in number
-
-Use recursion
-
