@@ -1,4 +1,9 @@
 #include "variadic_functions.h"
+/**
+ * sum_them_all - A finction that sums all arguments
+ * @n: First arguments
+ * Return: Returns sum of arguments on success or 0 on failure
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
