@@ -1,11 +1,18 @@
 #include "lists.h"
+/**
+ * print_list - Prints str in nodes
+ * @h: Pointer to header
+ * Return: Returns no of nodes
+ */
 
 size_t print_list(const list_t *h)
 {
 	int i;
 
 	i = 0;
-	while (h != NULL)
+	if (h == NULL)
+		return (0);
+	while (h->next != NULL)
 	{
 		if (h->str == NULL)
 		{
@@ -19,5 +26,6 @@ size_t print_list(const list_t *h)
 		}
 		i++;
 	}
+	printf("[%u] (%s)\n", h->len, h->str);
 	return (i);
 }
