@@ -12,21 +12,24 @@ list_t *add_node(list_t **head, const char *str)
 {
 	char *string;
 	size_t str_len;
-	struct list_s *new_node;
-
-	new_node = malloc(sizeof(list_t));
+	struct list_s *new_nod	new_node = malloc(sizeof(list_t));
 	str_len = 0;
 
 	string = strdup(str);
-	if (new_node == NULL || string == NULL || head == NULL)
+	if (new_node == NULL || head == NULL)
 		return (NULL);
 	while (string[str_len] != '\0')
 	{
 		str_len++;
 	}
+	if (string == NULL)
+		str_len = 0;
 	new_node->str = string;
 	new_node->len = str_len;
-	new_node->next = *head;
+	if (*head == NULL)
+		new_node->next = NULL;
+	else
+		new_node->next = *head;
 	*head = new_node;
 	return (*head);
 }
