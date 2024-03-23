@@ -2,6 +2,7 @@
 
 /**
  * insert_dnodeint_at_index - Inserts a node at the index
+ * @h: Pointer to head
  * @idx: Index to be added
  * @n: Element to be added to the new_node
  * Return: Returns the node added on success of NULL on failure
